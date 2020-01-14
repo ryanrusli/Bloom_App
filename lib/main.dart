@@ -3,6 +3,7 @@ import 'package:bloom_app/planner_page.dart';
 import 'package:bloom_app/profile_page.dart';
 import 'package:bloom_app/learn_page.dart';
 import 'package:bloom_app/meals_page.dart';
+import 'package:bloom_app/aqimap_data.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -11,9 +12,7 @@ void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
-//  State<StatefulWidget> createState() {
-//    return MyAppState();
-//  }
+
   Widget build(BuildContext context) {
     return MaterialApp(home: MyBottomNavigation());
   }

@@ -117,7 +117,7 @@ class _LearnPageState extends State<LearnPage> {
               )),
           Container(
               width: 500,
-              height: 50,
+              height: 70,
               margin: EdgeInsets.only(top: 5, left: 5, right: 5),
               decoration: textBoxDecoration(),
               child: Padding(

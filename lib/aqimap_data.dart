@@ -10,19 +10,25 @@ class _AQIDataState extends State<AQIData> {
   Widget build(BuildContext context) {
     return Scaffold(
         body: ListView(
-          children: <Widget>[
-            Container(
-                width: 500,
-                height: 100,
-                child: Center(
-                    child: Text(
-                      "Air Quality Index Map",
-                      style: TextStyle(
-                          fontFamily: "Roboto",
-                          fontWeight: FontWeight.bold,
-                          fontSize: 18),
-                    ))),
-          ],
-        ));
+      children: <Widget>[
+        Container(
+            width: 500,
+            height: 100,
+            child: Center(
+                child: Text(
+              "Air Quality Index Map",
+              style: TextStyle(
+                  fontFamily: "Roboto",
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18),
+            ))),
+        Container(
+            width: 500,
+            height: 700,
+            child: Center(
+              child: Image.asset("assets/aqimap.png"),
+            )),
+      ],
+    ));
   }
 }
